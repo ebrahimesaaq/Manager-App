@@ -5,7 +5,7 @@ class AppTextFormField extends StatelessWidget {
   final String label;
   final String title;
   final TextEditingController controller;
-  final Icon? icon;
+  final Widget? icon;
   final FormFieldValidator<String>? validator;
 
   const AppTextFormField({
@@ -40,8 +40,7 @@ class AppTextFormField extends StatelessWidget {
           controller: controller,
           validator: validator,
           decoration: InputDecoration(
-              suffix: icon,
-              labelText: label,
+              suffixIcon: icon,
               labelStyle: TextStyle(color: AppColors.lightGrey),
               border:
                   OutlineInputBorder(borderRadius: BorderRadius.circular(5))),

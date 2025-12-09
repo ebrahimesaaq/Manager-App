@@ -31,6 +31,11 @@ class Languages extends Translations {
           'cancel': 'الغاء',
           'error': 'خطأ',
           'unknown': 'خطأ غير معروف!',
+          'successAddAccount': 'تم اضافة الحساب بنجاح!',
+          'verification-sent': 'تم ارسال بريد التحقق بنجاح!',
+          'failed-send-verification-email': 'فشل في ارسال بريد التحقق',
+          'verification-email': 'ارسال بريد التحقق',
+          'passwords-not-match': 'كلمتا المرور غير متطابقتان',
         },
         'en': {
           'welcome': 'Welcome Back!',
@@ -60,6 +65,10 @@ class Languages extends Translations {
           'error': 'Error',
           'unknown': 'Unknown error!',
           'successAddAccount': 'Account added successfully!',
+          'verification-sent': 'Verification email sent successfully!',
+          'failed-send-verification-email': 'Failed to send verification email',
+          'verification-email': 'Send Verification Email',
+          'passwords-not-match': 'Passwords don\'t match',
         },
       };
 }

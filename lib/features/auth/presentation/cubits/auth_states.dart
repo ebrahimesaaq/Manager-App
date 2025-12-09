@@ -21,3 +21,17 @@ class RegisterFailure extends AuthStates {
 }
 
 class RegisterLoading extends AuthStates {}
+
+class VerificationEmailSuccess extends AuthStates {}
+
+class VerificationEmailFailure extends AuthStates {
+  late String message;
+
+  VerificationEmailFailure({required this.message});
+}
+
+class LogoutSuccess extends AuthStates {}
+
+class VerificationEmailLoading extends AuthStates {}
+
+class VerificationEmailDone extends AuthStates {}
